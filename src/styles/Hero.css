@@ -1,0 +1,144 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    background-color: var(--color-black); /* Update: Added background color */
+    overflow: hidden;
+  }
+  
+  /* Update: Removed unnecessary classes */
+  .video-background,
+  .background-video,
+  .video-overlay {
+    display: none;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-image-container {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 50%;
+    border: 4px solid var(--color-orange);
+    box-shadow: 0 0 20px rgba(255, 135, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .hero-image:hover .profile-image {
+    box-shadow: 0 0 30px rgba(255, 135, 0, 0.4);
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ff8700 0%, #ffa500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+    color: var(--color-light-gray);
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .hire-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--color-orange);
+    color: var(--color-black);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .hire-button .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .hire-button:hover .arrow {
+    transform: translateX(4px);
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange);
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 1024px) {
+    .hero {
+      padding: 2rem;
+    }
+  
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 2rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-actions {
+      justify-content: center;
+    }
+  
+    .profile-image {
+      max-width: 300px;
+    }
+  }
+  
+  
