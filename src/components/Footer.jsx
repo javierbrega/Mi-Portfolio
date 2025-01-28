@@ -1,37 +1,37 @@
-import React from "react"
-import { AnimatedElement } from "./AnimatedElement"
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
-import "../styles/Footer.css"
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { AnimatedElement } from "./AnimatedElement";
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import "../styles/Footer.css";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-content">
         <AnimatedElement animation="fadeIn" delay={0.2}>
           <div className="footer-section">
-            <h3>About Me</h3>
-            <p>
-              I'm Javier, a passionate web developer and UX designer. I create beautiful, functional websites that help
-              businesses grow and succeed online.
-            </p>
+            <h3>{t('footer.aboutMe')}</h3>
+            <p>{t('footer.aboutDescription')}</p>
           </div>
         </AnimatedElement>
 
         <AnimatedElement animation="fadeIn" delay={0.4}>
           <div className="footer-section">
-            <h3>Quick Links</h3>
+            <h3>{t('footer.quickLinks')}</h3>
             <ul>
               <li>
-                <a href="#services">Services</a>
+                <a href="#services">{t('footer.services')}</a>
               </li>
               <li>
-                <a href="#works">Works</a>
+                <a href="#works">{t('footer.works')}</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">{t('footer.skills')}</a>
               </li>
               <li>
-                <a href="#resume">Resume</a>
+                <a href="#resume">{t('footer.resume')}</a>
               </li>
             </ul>
           </div>
@@ -39,16 +39,16 @@ function Footer() {
 
         <AnimatedElement animation="fadeIn" delay={0.6}>
           <div className="footer-section">
-            <h3>Contact Info</h3>
+            <h3>{t('footer.contactInfo')}</h3>
             <ul className="contact-info">
               <li>
-                <Mail size={18} /> <a href="mailto:javier@example.com">javierbrega@gmail.com</a>
+                <Mail size={18} /> <a href="mailto:javier@example.com">{t('footer.email')}</a>
               </li>
               <li>
-                <Phone size={18} /> +54 (260) 457-6114
+                <Phone size={18} /> {t('footer.phone')}
               </li>
               <li>
-                <MapPin size={18} /> San Rafael, Mendoza, Argentina
+                <MapPin size={18} /> {t('footer.address')}
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ function Footer() {
 
         <AnimatedElement animation="fadeIn" delay={0.8}>
           <div className="footer-section">
-            <h3>Follow Me</h3>
+            <h3>{t('footer.followMe')}</h3>
             <div className="social-links">
               <a href="#" aria-label="Facebook">
                 <Facebook />
@@ -77,12 +77,11 @@ function Footer() {
 
       <AnimatedElement animation="fadeIn" delay={1}>
         <div className="footer-bottom">
-          <p>&copy; 2025 Javier Brega. All rights reserved.</p>
+          <p>{t('footer.copyright')}</p>
         </div>
       </AnimatedElement>
     </footer>
-  )
+  );
 }
 
-export default Footer
-
+export default Footer;
