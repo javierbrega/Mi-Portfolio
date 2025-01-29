@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import "../styles/Header.css";
 import { Download } from "lucide-react";
-import LanguageSwitcher from "./LanguageSwitcher"; // Importa el componente LanguageSwitcher
+import LanguageSwitcher from "./LanguageSwitcher"; 
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,29 +49,29 @@ function Header() {
       <nav className="nav-menu">
         <ul>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services">{t('header.services')}</a>
           </li>
           <li>
-            <a href="#works">Works</a>
+            <a href="#works">{t('header.works')}</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="#resume">{t('header.resume')}</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#skills">{t('header.skills')}</a>
           </li>
           <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonials">{t('header.testimonials')}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{t('header.contact')}</a>
           </li>
         </ul>
       </nav>
       <div className="header-right"> {/* Envuelve la parte derecha del header */}
         <a href="https://drive.google.com/uc?export=download&id=1K6DijFVoE9FSNew65g6NjBaB0x-57Kwc" target="_blank" rel="noopener noreferrer" className="resume-link">
           <button className="resume-button">
-            Resume <Download size={16} className="ml-2" />
+            {t('header.resume_button')} <Download size={16} className="ml-2" />
           </button>
         </a>
         <LanguageSwitcher /> {/* Incluir el switcher de idiomas */}

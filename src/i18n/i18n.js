@@ -1,4 +1,3 @@
-// src/i18n/i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -24,6 +23,15 @@ i18n
             phone: "+54 (260) 457-6114",
             address: "San Rafael, Mendoza, Argentina",
             copyright: "© 2025 Javier Brega. All rights reserved."
+          },
+          header: {
+            services: "Services",
+            works: "Works",
+            resume: "Resume",
+            skills: "Skills",
+            testimonials: "Testimonials",
+            contact: "Contact",
+            resume_button: "Resume"
           }
         }
       },
@@ -34,7 +42,7 @@ i18n
             aboutDescription: "Soy Javier, un desarrollador web y diseñador UX apasionado. Creo sitios web hermosos y funcionales que ayudan a las empresas a crecer y tener éxito en línea.",
             quickLinks: "Enlaces Rápidos",
             services: "Servicios",
-            works: "Proyectos",
+            works: "Trabajos",
             skills: "Habilidades",
             resume: "Currículum",
             contactInfo: "Información de Contacto",
@@ -43,13 +51,22 @@ i18n
             phone: "+54 (260) 457-6114",
             address: "San Rafael, Mendoza, Argentina",
             copyright: "© 2025 Javier Brega. Todos los derechos reservados."
+          },
+          header: {
+            services: "Servicios",
+            works: "Trabajos",
+            resume: "Currículum",
+            skills: "Habilidades",
+            testimonials: "Testimonios",
+            contact: "Contacto",
+            resume_button: "Currículum"
           }
         }
       },
     },
     fallbackLng: 'en',
     detection: {
-      order: ['queryString', 'cookie'],
+      order: ['querystring', 'cookie'],
       cache: ['cookie']
     },
     interpolation: {
