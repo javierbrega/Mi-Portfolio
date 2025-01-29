@@ -37,6 +37,57 @@ i18n
             greeting: "Hi, I am Javier - Web Developer + UX Designer",
             description: "I design and code beautifully simple things and I love what I do. Just simple like that!",
             hireMe: "Hire me!"
+          },
+          resume: {
+            my: "My",
+            resume: "Resume",
+            workExperience: "Work Experience",
+            education: "Education",
+            seniorWebDeveloper: {
+              title: "Senior Web Developer",
+              company: "Tech Innovations Inc.",
+              date: "2020 - Present",
+              desc1: "Led development of multiple high-traffic web applications",
+              desc2: "Implemented responsive design principles across all projects",
+              desc3: "Mentored junior developers and conducted code reviews"
+            },
+            fullStackDeveloper: {
+              title: "Full Stack Developer",
+              company: "Digital Solutions Ltd.",
+              date: "2017 - 2020",
+              desc1: "Developed and maintained client websites using React and Node.js",
+              desc2: "Collaborated with design team to implement UI/UX improvements",
+              desc3: "Optimized database queries, improving site performance by 40%"
+            },
+            juniorWebDeveloper: {
+              title: "Junior Web Developer",
+              company: "WebCraft Studios",
+              date: "2015 - 2017",
+              desc1: "Assisted in the development of responsive websites",
+              desc2: "Implemented pixel-perfect designs from Figma mockups",
+              desc3: "Learned and applied best practices in web development"
+            },
+            masters: {
+              title: "Master of Science in Computer Science",
+              company: "Tech University",
+              date: "2018 - 2020",
+              desc1: "Specialized in Artificial Intelligence and Machine Learning",
+              desc2: "Thesis: 'Implementing AI in Web Applications for Enhanced User Experience'"
+            },
+            bachelors: {
+              title: "Bachelor of Science in Software Engineering",
+              company: "State University",
+              date: "2014 - 2018",
+              desc1: "Graduated with Honors (GPA: 3.8/4.0)",
+              desc2: "Relevant coursework: Web Development, Database Systems, Software Architecture"
+            },
+            bootcamp: {
+              title: "Web Development Bootcamp",
+              company: "CodeCamp Academy",
+              date: "Summer 2014",
+              desc1: "Intensive 12-week program covering full-stack web development",
+              desc2: "Built and deployed multiple web applications"
+            }
           }
         }
       },
@@ -70,6 +121,57 @@ i18n
             greeting: "Hola, soy Javier - Desarrollador Web + Diseñador UX",
             description: "Diseño y codifico cosas hermosamente simples y amo lo que hago. ¡Así de simple!",
             hireMe: "¡Contrátame!"
+          },
+          resume: {
+            my: "Mi",
+            resume: "Currículum",
+            workExperience: "Experiencia Laboral",
+            education: "Educación",
+            seniorWebDeveloper: {
+              title: "Desarrollador Web Senior",
+              company: "Tech Innovations Inc.",
+              date: "2020 - Presente",
+              desc1: "Dirigí el desarrollo de múltiples aplicaciones web de alto tráfico",
+              desc2: "Implementé principios de diseño responsivo en todos los proyectos",
+              desc3: "Mentoré a desarrolladores junior y realicé revisiones de código"
+            },
+            fullStackDeveloper: {
+              title: "Desarrollador Full Stack",
+              company: "Digital Solutions Ltd.",
+              date: "2017 - 2020",
+              desc1: "Desarrollé y mantuve sitios web de clientes utilizando React y Node.js",
+              desc2: "Colaboré con el equipo de diseño para implementar mejoras en la UI/UX",
+              desc3: "Optimizé consultas de bases de datos, mejorando el rendimiento del sitio en un 40%"
+            },
+            juniorWebDeveloper: {
+              title: "Desarrollador Web Junior",
+              company: "WebCraft Studios",
+              date: "2015 - 2017",
+              desc1: "Asistí en el desarrollo de sitios web responsivos",
+              desc2: "Implementé diseños perfectos de píxeles desde maquetas de Figma",
+              desc3: "Aprendí y apliqué mejores prácticas en desarrollo web"
+            },
+            masters: {
+              title: "Máster en Ciencias de la Computación",
+              company: "Tech University",
+              date: "2018 - 2020",
+              desc1: "Especialización en Inteligencia Artificial y Aprendizaje Automático",
+              desc2: "Tesis: 'Implementación de IA en Aplicaciones Web para una Experiencia de Usuario Mejorada'"
+            },
+            bachelors: {
+              title: "Licenciatura en Ingeniería de Software",
+              company: "State University",
+              date: "2014 - 2018",
+              desc1: "Graduado con honores (GPA: 3.8/4.0)",
+              desc2: "Cursos relevantes: Desarrollo Web, Sistemas de Bases de Datos, Arquitectura de Software"
+            },
+            bootcamp: {
+              title: "Bootcamp de Desarrollo Web",
+              company: "CodeCamp Academy",
+              date: "Verano 2014",
+              desc1: "Programa intensivo de 12 semanas cubriendo desarrollo web full-stack",
+              desc2: "Construí y desplegué múltiples aplicaciones web"
+            }
           }
         }
       },
