@@ -1,0 +1,22 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-title {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: var(--color-white);
+}
+
+.flag-icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1);
+}
