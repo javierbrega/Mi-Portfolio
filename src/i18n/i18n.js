@@ -32,6 +32,11 @@ i18n
             testimonials: "Testimonials",
             contact: "Contact",
             resume_button: "Resume"
+          },
+          hero: {
+            greeting: "Hi, I am Javier - Web Developer + UX Designer",
+            description: "I design and code beautifully simple things and I love what I do. Just simple like that!",
+            hireMe: "Hire me!"
           }
         }
       },
@@ -60,6 +65,11 @@ i18n
             testimonials: "Testimonios",
             contact: "Contacto",
             resume_button: "Currículum"
+          },
+          hero: {
+            greeting: "Hola, soy Javier - Desarrollador Web + Diseñador UX",
+            description: "Diseño y codifico cosas hermosamente simples y amo lo que hago. ¡Así de simple!",
+            hireMe: "¡Contrátame!"
           }
         }
       },

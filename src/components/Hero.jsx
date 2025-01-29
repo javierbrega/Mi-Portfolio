@@ -1,20 +1,23 @@
 "use client"
 
-import React from "react"
-import { motion } from "framer-motion"
-import { Facebook, Instagram, Dribbble, Bookmark } from "lucide-react"
-import { AnimatedElement } from "./AnimatedElement"
-import "../styles/Hero.css"
+import React from "react";
+import { motion } from "framer-motion";
+import { Facebook, Instagram, Dribbble, Bookmark } from "lucide-react";
+import { AnimatedElement } from "./AnimatedElement";
+import { useTranslation } from 'react-i18next';
+import "../styles/Hero.css";
 
 function Hero() {
+  const { t } = useTranslation();
+
   // Wrap any ethereum-related code in a try-catch block
   React.useEffect(() => {
     try {
       // Your ethereum-related code here, if any
     } catch (error) {
-      console.error("Ethereum object not available:", error)
+      console.error("Ethereum object not available:", error);
     }
-  }, [])
+  }, []);
 
   return (
     <section className="hero">
@@ -31,16 +34,16 @@ function Hero() {
 
         <div className="hero-text">
           <AnimatedElement delay={0.2}>
-            <h1>Hi, I am Javier - Web Developer + UX Designer</h1>
+            <h1>{t('hero.greeting')}</h1>
           </AnimatedElement>
 
           <AnimatedElement delay={0.4}>
-            <p>I design and code beautifully simple things and I love what I do. Just simple like that!</p>
+            <p>{t('hero.description')}</p>
           </AnimatedElement>
 
           <AnimatedElement delay={0.6} className="hero-actions">
             <motion.button className="hire-button" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              Hire me! <span className="arrow">→</span>
+              {t('hero.hireMe')} <span className="arrow">→</span>
             </motion.button>
 
             <div className="social-links">
@@ -64,8 +67,7 @@ function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
-
+export default Hero;
