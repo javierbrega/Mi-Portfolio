@@ -1,13 +1,12 @@
 .language-switcher {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
 }
 
-.language-title {
-  margin-right: 0.5rem;
-  font-size: 1rem;
-  color: var(--color-white);
+.flags {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .flag-icon {
@@ -19,4 +18,11 @@
 
 .flag-icon:hover {
   transform: scale(1.1);
+}
+
+.language-title {
+  margin-top: 0.2rem; /* Ajusta el margen superior para acercar el texto a las banderas */
+  font-size: 1rem;
+  color: var(--color-white);
+  text-align: center;
 }

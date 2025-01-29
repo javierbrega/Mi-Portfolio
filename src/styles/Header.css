@@ -86,14 +86,21 @@
 }
 
 .flag-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
   transition: transform 0.2s;
 }
 
 .flag-icon:hover {
   transform: scale(1.1);
+}
+
+.language-title {
+  margin-top: 0.2rem; /* Ajusta el margen superior para acercar el texto a las banderas */
+  font-size: 1rem;
+  color: var(--color-white);
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -107,5 +114,12 @@
 
   .email {
     display: none;
+  }
+
+  .header-right {
+    display: flex;
+    flex-direction: row; /* Asegura que los elementos se mantengan en fila */
+    align-items: center;
+    gap: 0.5rem; /* Ajusta el espacio entre los elementos en pantallas pequeñas */
   }
 }

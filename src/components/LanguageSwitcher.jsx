@@ -11,19 +11,21 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="language-switcher">
-         <p className="language-title">Language</p> {/* Título agregado */}
-      <img
-        src={argentinaFlag}
-        alt="Español"
-        onClick={() => changeLanguage('es')}
-        className="flag-icon"
-      />
-      <img
-        src={usFlag}
-        alt="English"
-        onClick={() => changeLanguage('en')}
-        className="flag-icon"
-      />
+      <div className="flags">
+        <img
+          src={argentinaFlag}
+          alt="Español"
+          onClick={() => changeLanguage('es')}
+          className="flag-icon"
+        />
+        <img
+          src={usFlag}
+          alt="English"
+          onClick={() => changeLanguage('en')}
+          className="flag-icon"
+        />
+      </div>
+      <p className="language-title">Language</p> {/* Título debajo de las banderas */}
     </div>
   );
 };
