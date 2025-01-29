@@ -1,7 +1,8 @@
 import React from 'react';
 import i18n from 'i18next';
-import argentinaFlag from '../assets/Argentina_Flag.png';
-import usFlag from '../assets/Usa_Flag.png';
+import argentinaFlag from '/src/assets/Argentina_Flag.png';
+import usFlag from '/src/assets/Usa_Flag.png';
+
 import '../styles/LanguageSwitcher.css';
 
 const LanguageSwitcher = () => {
