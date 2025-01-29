@@ -88,6 +88,26 @@ i18n
               desc1: "Intensive 12-week program covering full-stack web development",
               desc2: "Built and deployed multiple web applications"
             }
+          },
+          services: {
+            my: "My",
+            services: "Services",
+            webDevelopment: {
+              title: "Web Development",
+              description: "Custom website development using modern technologies and best practices."
+            },
+            responsiveDesign: {
+              title: "Responsive Design",
+              description: "Creating websites that look great on all devices, from mobile to desktop."
+            },
+            uiUxDesign: {
+              title: "UI/UX Design",
+              description: "Designing intuitive and visually appealing user interfaces and experiences."
+            },
+            performanceOptimization: {
+              title: "Performance Optimization",
+              description: "Improving website speed and performance for better user experience and SEO."
+            }
           }
         }
       },
@@ -171,6 +191,26 @@ i18n
               date: "Verano 2014",
               desc1: "Programa intensivo de 12 semanas cubriendo desarrollo web full-stack",
               desc2: "Construí y desplegué múltiples aplicaciones web"
+            }
+          },
+          services: {
+            my: "Mis",
+            services: "Servicios",
+            webDevelopment: {
+              title: "Desarrollo Web",
+              description: "Desarrollo de sitios web personalizados utilizando tecnologías modernas y mejores prácticas."
+            },
+            responsiveDesign: {
+              title: "Diseño Responsivo",
+              description: "Creación de sitios web que se ven geniales en todos los dispositivos, desde móviles hasta computadoras de escritorio."
+            },
+            uiUxDesign: {
+              title: "Diseño UI/UX",
+              description: "Diseño de interfaces y experiencias de usuario intuitivas y visualmente atractivas."
+            },
+            performanceOptimization: {
+              title: "Optimización de Rendimiento",
+              description: "Mejora de la velocidad y el rendimiento del sitio web para una mejor experiencia de usuario y SEO."
             }
           }
         }
