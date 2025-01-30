@@ -10,12 +10,14 @@ import servicesEn from '../locales/en/services.json';
 import worksEn from '../locales/en/works.json';
 import resumeEn from '../locales/en/resume.json';
 import skillsEn from '../locales/en/skills.json';
+import studyEn from '../locales/en/study.json';
 import headerEs from '../locales/es/header.json';
 import heroEs from '../locales/es/hero.json';
 import servicesEs from '../locales/es/services.json';
 import worksEs from '../locales/es/works.json';
 import resumeEs from '../locales/es/resume.json';
 import skillsEs from '../locales/es/skills.json';
+import studyEs from '../locales/es/study.json';
 
 i18n
   .use(LanguageDetector)
@@ -29,7 +31,8 @@ i18n
           services: servicesEn,
           works: worksEn,
           resume: resumeEn,
-          skills: skillsEn
+          skills: skillsEn,
+          study: studyEn
         }
       },
       es: {
@@ -39,7 +42,8 @@ i18n
           services: servicesEs,
           works: worksEs,
           resume: resumeEs,
-          skills: skillsEs
+          skills: skillsEs,
+          study: studyEs
         }
       },
     },
@@ -52,6 +56,7 @@ i18n
       escapeValue: false
     }
   });
+
 
 
 

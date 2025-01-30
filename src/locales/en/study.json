@@ -1,0 +1,21 @@
+{
+    "certifications": "Certifications",
+    "andStudies": "and Studies",
+    "fullStackWebDevelopment": {
+      "title": "Full Stack Web Development",
+      "institution": "Udacity Nanodegree | 2020"
+    },
+    "reactCertification": {
+      "title": "React Certification",
+      "institution": "FreeCodeCamp | 2019"
+    },
+    "advancedJavaScript": {
+      "title": "Advanced JavaScript",
+      "institution": "Coursera | 2018"
+    },
+    "uiUxDesignFundamentals": {
+      "title": "UI/UX Design Fundamentals",
+      "institution": "Google / Coursera | 2021"
+    }
+  }
+  
