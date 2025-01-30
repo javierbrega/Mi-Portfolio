@@ -5,8 +5,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 // Importar los archivos de traducción
 import headerEn from '../locales/en/header.json';
 import heroEn from '../locales/en/hero.json';
+import servicesEn from '../locales/en/services.json';
 import headerEs from '../locales/es/header.json';
 import heroEs from '../locales/es/hero.json';
+import servicesEs from '../locales/es/services.json';
 
 
 i18n
@@ -17,13 +19,15 @@ i18n
       en: {
         translation: {
           header: headerEn,
-          hero: heroEn
+          hero: heroEn,
+          services: servicesEn
         }
       },
       es: {
         translation: {
           header: headerEs,
-          hero: heroEs
+          hero: heroEs,
+          services: servicesEs
         }
       },
     },

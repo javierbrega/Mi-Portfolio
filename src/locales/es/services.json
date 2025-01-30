@@ -1,0 +1,21 @@
+{
+    "my": "Mis",
+    "services": "Servicios",
+    "webDevelopment": {
+      "title": "Desarrollo Web",
+      "description": "Desarrollo de sitios web personalizados utilizando tecnologías modernas y mejores prácticas."
+    },
+    "responsiveDesign": {
+      "title": "Diseño Responsivo",
+      "description": "Creación de sitios web que se ven geniales en todos los dispositivos, desde móviles hasta computadoras de escritorio."
+    },
+    "uiUxDesign": {
+      "title": "Diseño UI/UX",
+      "description": "Diseño de interfaces y experiencias de usuario intuitivas y visualmente atractivas."
+    },
+    "performanceOptimization": {
+      "title": "Optimización de Rendimiento",
+      "description": "Mejora de la velocidad y el rendimiento del sitio web para una mejor experiencia de usuario y SEO."
+    }
+  }
+  

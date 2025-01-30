@@ -1,0 +1,21 @@
+{
+    "my": "My",
+    "services": "Services",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Custom website development using modern technologies and best practices."
+    },
+    "responsiveDesign": {
+      "title": "Responsive Design",
+      "description": "Creating websites that look great on all devices, from mobile to desktop."
+    },
+    "uiUxDesign": {
+      "title": "UI/UX Design",
+      "description": "Designing intuitive and visually appealing user interfaces and experiences."
+    },
+    "performanceOptimization": {
+      "title": "Performance Optimization",
+      "description": "Improving website speed and performance for better user experience and SEO."
+    }
+  }
+  
