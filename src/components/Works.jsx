@@ -6,6 +6,7 @@ import { AnimatedElement } from "./AnimatedElement";
 import { Github, ExternalLink } from "lucide-react";
 import "../styles/Works.css";
 import redessociales from '../assets/redessociales.png';
+import P_portfolio from '../assets/P_portfolio.png';
 
 // Lista de proyectos
 const projects = [
@@ -19,8 +20,8 @@ const projects = [
   {
     title: "works.project2.title",
     description: "works.project2.description",
-    image: "/placeholder-project2.jpg",
-    github: "https://github.com/yourusername/project2",
+    image: P_portfolio,
+    github: "https://github.com/javierbrega/Mi-Portfolio.git",
     live: "https://project2.com",
   },
   {
