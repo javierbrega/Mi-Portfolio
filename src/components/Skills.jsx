@@ -16,6 +16,8 @@ const skills = [
 ];
 
 function SkillBar({ skill, index }) {
+  const { t } = useTranslation();
+
   return (
     <AnimatedElement animation="fadeIn" delay={index * 0.1}>
       <motion.div
@@ -25,7 +27,7 @@ function SkillBar({ skill, index }) {
         transition={{ duration: 1, delay: index * 0.1 }}
       >
         <div className="skill-info">
-          <span className="skill-name">{skill.name}</span>
+          <span className="skill-name">{t(skill.name)}</span>
           <span className="skill-percentage">{skill.level}%</span>
         </div>
         <div className="skill-progress" style={{ backgroundColor: skill.color }}>
