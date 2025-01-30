@@ -1,7 +1,8 @@
-import React from "react"
-import { AnimatedElement } from "./AnimatedElement"
-import { motion } from "framer-motion"
-import "../styles/Skills.css"
+import React from "react";
+import { useTranslation } from 'react-i18next';
+import { AnimatedElement } from "./AnimatedElement";
+import { motion } from "framer-motion";
+import "../styles/Skills.css";
 
 const skills = [
   { name: "HTML", level: 90, color: "#E34F26" },
@@ -12,7 +13,7 @@ const skills = [
   { name: "Python", level: 65, color: "#3776AB" },
   { name: "UI/UX Design", level: 75, color: "#FF3366" },
   { name: "GraphQL", level: 60, color: "#E10098" },
-]
+];
 
 function SkillBar({ skill, index }) {
   return (
@@ -32,15 +33,17 @@ function SkillBar({ skill, index }) {
         </div>
       </motion.div>
     </AnimatedElement>
-  )
+  );
 }
 
 function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section id="skills" className="skills section">
       <AnimatedElement animation="fadeIn">
         <h2 className="section-title">
-          <span className="title-highlight">My</span> Skills
+          <span className="title-highlight">{t('skills.my')}</span> {t('skills.skills')}
         </h2>
       </AnimatedElement>
       <div className="skills-container">
@@ -49,8 +52,7 @@ function Skills() {
         ))}
       </div>
     </section>
-  )
+  );
 }
 
-export default Skills
-
+export default Skills;
