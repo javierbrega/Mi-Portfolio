@@ -1,0 +1,19 @@
+{
+    "my": "Mis",
+    "works": "Trabajos",
+    "project1": {
+      "title": "Worker",
+      "description": "Worker, la red social para los trabajadores."
+    },
+    "project2": {
+      "title": "Proyecto 2",
+      "description": "Una breve descripción del Proyecto 2."
+    },
+    "project3": {
+      "title": "Proyecto 3",
+      "description": "Una breve descripción del Proyecto 3."
+    },
+    "github": "GitHub",
+    "liveDemo": "Demostración en Vivo"
+  }
+  

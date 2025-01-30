@@ -1,0 +1,52 @@
+{
+    "my": "My",
+    "resume": "Resume",
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "seniorWebDeveloper": {
+      "title": "Senior Web Developer",
+      "company": "Tech Innovations Inc.",
+      "date": "2020 - Present",
+      "desc1": "Led development of multiple high-traffic web applications",
+      "desc2": "Implemented responsive design principles across all projects",
+      "desc3": "Mentored junior developers and conducted code reviews"
+    },
+    "fullStackDeveloper": {
+      "title": "Full Stack Developer",
+      "company": "Digital Solutions Ltd.",
+      "date": "2017 - 0- 2020",
+      "desc1": "Developed and maintained client websites using React and Node.js",
+      "desc2": "Collaborated with design team to implement UI/UX improvements",
+      "desc3": "Optimized database queries, improving site performance by 40%"
+    },
+    "juniorWebDeveloper": {
+      "title": "Junior Web Developer",
+      "company": "WebCraft Studios",
+      "date": "2015 - 2017",
+      "desc1": "Assisted in the development of responsive websites",
+      "desc2": "Implemented pixel-perfect designs from Figma mockups",
+      "desc3": "Learned and applied best practices in web development"
+    },
+    "masters": {
+      "title": "Master of Science in Computer Science",
+      "company": "Tech University",
+      "date": "2018 - 2020",
+      "desc1": "Specialized in Artificial Intelligence and Machine Learning",
+      "desc2": "Thesis: 'Implementing AI in Web Applications for Enhanced User Experience'"
+    },
+    "bachelors": {
+      "title": "Bachelor of Science in Software Engineering",
+      "company": "State University",
+      "date": "2014 - 2018",
+      "desc1": "Graduated with Honors (GPA: 3.8/4.0)",
+      "desc2": "Relevant coursework: Web Development, Database Systems, Software Architecture"
+    },
+    "bootcamp": {
+      "title": "Web Development Bootcamp",
+      "company": "CodeCamp Academy",
+      "date": "Summer 2014",
+      "desc1": "Intensive 12-week program covering full-stack web development",
+      "desc2": "Built and deployed multiple web applications"
+    }
+  }
+  

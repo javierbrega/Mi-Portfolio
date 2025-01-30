@@ -1,0 +1,52 @@
+{
+    "my": "Mi",
+    "resume": "Currículum",
+    "workExperience": "Experiencia Laboral",
+    "education": "Educación",
+    "seniorWebDeveloper": {
+      "title": "Desarrollador Web Senior",
+      "company": "Tech Innovations Inc.",
+      "date": "2020 - Presente",
+      "desc1": "Dirigí el desarrollo de múltiples aplicaciones web de alto tráfico",
+      "desc2": "Implementé principios de diseño responsivo en todos los proyectos",
+      "desc3": "Mentoré a desarrolladores junior y realicé revisiones de código"
+    },
+    "fullStackDeveloper": {
+      "title": "Desarrollador Full Stack",
+      "company": "Digital Solutions Ltd.",
+      "date": "2017 - 2020",
+      "desc1": "Desarrollé y mantuve sitios web de clientes utilizando React y Node.js",
+      "desc2": "Colaboré con el equipo de diseño para implementar mejoras en la UI/UX",
+      "desc3": "Optimizé consultas de bases de datos, mejorando el rendimiento del sitio en un 40%"
+    },
+    "juniorWebDeveloper": {
+      "title": "Desarrollador Web Junior",
+      "company": "WebCraft Studios",
+      "date": "2015 - 2017",
+      "desc1": "Asistí en el desarrollo de sitios web responsivos",
+      "desc2": "Implementé diseños perfectos de píxeles desde maquetas de Figma",
+      "desc3": "Aprendí y apliqué mejores prácticas en desarrollo web"
+    },
+    "masters": {
+      "title": "Máster en Ciencias de la Computación",
+      "company": "Tech University",
+      "date": "2018 - 2020",
+      "desc1": "Especialización en Inteligencia Artificial y Aprendizaje Automático",
+      "desc2": "Tesis: 'Implementación de IA en Aplicaciones Web para una Experiencia de Usuario Mejorada'"
+    },
+    "bachelors": {
+      "title": "Licenciatura en Ingeniería de Software",
+      "company": "State University",
+      "date": "2014 - 2018",
+      "desc1": "Graduado con honores (GPA: 3.8/4.0)",
+      "desc2": "Cursos relevantes: Desarrollo Web, Sistemas de Bases de Datos, Arquitectura de Software"
+    },
+    "bootcamp": {
+      "title": "Bootcamp de Desarrollo Web",
+      "company": "CodeCamp Academy",
+      "date": "Verano 2014",
+      "desc1": "Programa intensivo de 12 semanas cubriendo desarrollo web full-stack",
+      "desc2": "Construí y desplegué múltiples aplicaciones web"
+    }
+  }
+  

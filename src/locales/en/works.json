@@ -1,0 +1,19 @@
+{
+    "my": "My",
+    "works": "Works",
+    "project1": {
+      "title": "Worker",
+      "description": "Worker, the social network for workers."
+    },
+    "project2": {
+      "title": "Project 2",
+      "description": "A brief description of Project 2."
+    },
+    "project3": {
+      "title": "Project 3",
+      "description": "A brief description of Project 3."
+    },
+    "github": "GitHub",
+    "liveDemo": "Live Demo"
+  }
+  

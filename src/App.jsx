@@ -9,7 +9,7 @@ import Study from "./components/Study"
 import Footer from "./components/Footer"
 import LoadingAnimation from "./components/LoadingAnimation"
 import "./App.css"
-import './i18n/i18n';
+import '../src/i18n/i18n.js';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
