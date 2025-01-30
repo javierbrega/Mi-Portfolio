@@ -1,3 +1,5 @@
+
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import { AnimatedElement } from "./AnimatedElement";
@@ -5,24 +7,25 @@ import { Github, ExternalLink } from "lucide-react";
 import "../styles/Works.css";
 import redessociales from '../assets/redessociales.png';
 
+// Lista de proyectos
 const projects = [
   {
-    title: "project1.title",
-    description: "project1.description",
+    title: "works.project1.title",
+    description: "works.project1.description",
     image: redessociales,
     github: "https://github.com/yourusername/project1",
     live: "https://project1.com",
   },
   {
-    title: "project2.title",
-    description: "project2.description",
+    title: "works.project2.title",
+    description: "works.project2.description",
     image: "/placeholder-project2.jpg",
     github: "https://github.com/yourusername/project2",
     live: "https://project2.com",
   },
   {
-    title: "project3.title",
-    description: "project3.description",
+    title: "works.project3.title",
+    description: "works.project3.description",
     image: "/placeholder-project3.jpg",
     github: "https://github.com/yourusername/project3",
     live: "https://project3.com",

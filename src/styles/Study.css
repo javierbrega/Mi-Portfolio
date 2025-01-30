@@ -54,6 +54,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     overflow: hidden;
+    min-height: 150px; /* Ajusta este valor según sea necesario */
   }
   
   .study-item:hover {

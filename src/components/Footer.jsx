@@ -1,9 +1,10 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { AnimatedElement } from "./AnimatedElement";
 import {
   Facebook,
-  Twitter,
+  X,
   Instagram,
   Linkedin,
   Mail,
@@ -71,7 +72,7 @@ function Footer() {
                 <Facebook />
               </a>
               <a href="#" aria-label="Twitter">
-                <Twitter />
+                <X />
               </a>
               <a href="#" aria-label="Instagram">
                 <Instagram />
