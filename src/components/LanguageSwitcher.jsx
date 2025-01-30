@@ -1,8 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import i18n from 'i18next';
-import argentinaFlag from '/src/assets/Argentina_Flag.png';
-import usFlag from '/src/assets/Usa_Flag.png';
-
+import argentinaFlag from '../assets/Argentina_Flag.png';
+import usFlag from '../assets/Usa_flag.png';
 import '../styles/LanguageSwitcher.css';
 
 const LanguageSwitcher = () => {
@@ -26,7 +26,7 @@ const LanguageSwitcher = () => {
           className="flag-icon"
         />
       </div>
-      <p className="language-title">Language</p> {/* Título debajo de las banderas */}
+      <p className="language-title">Language</p>
     </div>
   );
 };

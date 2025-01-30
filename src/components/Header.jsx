@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import "../styles/Header.css";
@@ -6,18 +7,29 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const { t } = useTranslation();
 
   useEffect(() => {
+    let lastScrollY = window.scrollY;
+
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setIsVisible(false);
+      } else if (currentScrollY < lastScrollY || currentScrollY <= 100) {
+        setIsVisible(true);
+      }
+      setIsScrolled(currentScrollY > 0);
+      lastScrollY = currentScrollY;
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <header className={`header ${isScrolled ? "scrolled" : ""}`}>
+    <header className={`header ${isScrolled ? "scrolled" : ""} ${isVisible ? "visible" : "hidden"}`}>
       <div className="header-left">
         <div className="logo">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -68,13 +80,13 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className="header-right"> {/* Envuelve la parte derecha del header */}
+      <div className="header-right">
         <a href="https://drive.google.com/uc?export=download&id=1K6DijFVoE9FSNew65g6NjBaB0x-57Kwc" target="_blank" rel="noopener noreferrer" className="resume-link">
           <button className="resume-button">
             {t('header.resume_button')} <Download size={16} className="ml-2" />
           </button>
         </a>
-        <LanguageSwitcher /> {/* Incluir el switcher de idiomas */}
+        <LanguageSwitcher />
       </div>
     </header>
   );
