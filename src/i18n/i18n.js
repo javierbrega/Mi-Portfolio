@@ -11,6 +11,7 @@ import worksEn from '../locales/en/works.json';
 import resumeEn from '../locales/en/resume.json';
 import skillsEn from '../locales/en/skills.json';
 import studyEn from '../locales/en/study.json';
+import footerEn from '../locales/en/footer.json';
 import headerEs from '../locales/es/header.json';
 import heroEs from '../locales/es/hero.json';
 import servicesEs from '../locales/es/services.json';
@@ -18,6 +19,7 @@ import worksEs from '../locales/es/works.json';
 import resumeEs from '../locales/es/resume.json';
 import skillsEs from '../locales/es/skills.json';
 import studyEs from '../locales/es/study.json';
+import footerEs from '../locales/es/footer.json';
 
 i18n
   .use(LanguageDetector)
@@ -32,7 +34,8 @@ i18n
           works: worksEn,
           resume: resumeEn,
           skills: skillsEn,
-          study: studyEn
+          study: studyEn,
+          footer: footerEn
         }
       },
       es: {
@@ -43,7 +46,8 @@ i18n
           works: worksEs,
           resume: resumeEs,
           skills: skillsEs,
-          study: studyEs
+          study: studyEs,
+          footer: footerEs
         }
       },
     },
@@ -57,7 +61,9 @@ i18n
     }
   });
 
-
-
+// Guardar el idioma en localStorage
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('i18nextLng', lng);
+});
 
 export default i18n;
