@@ -2,9 +2,12 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Importa los archivos de traducción
+// Importar los archivos de traducción
 import headerEn from '../locales/en/header.json';
+import heroEn from '../locales/en/hero.json';
 import headerEs from '../locales/es/header.json';
+import heroEs from '../locales/es/hero.json';
+
 
 i18n
   .use(LanguageDetector)
@@ -13,12 +16,14 @@ i18n
     resources: {
       en: {
         translation: {
-          header: headerEn
+          header: headerEn,
+          hero: heroEn
         }
       },
       es: {
         translation: {
-          header: headerEs
+          header: headerEs,
+          hero: heroEs
         }
       },
     },
