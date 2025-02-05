@@ -1,16 +1,7 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { AnimatedElement } from "./AnimatedElement";
-import {
-  Facebook,
-  X,
-  Instagram,
-  Linkedin,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { SocialIcon } from "react-social-icons";
+import { FaEnvelope, FaPhone, FaMapPin } from "react-icons/fa";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -51,14 +42,14 @@ function Footer() {
             <h3>{t("footer.contactInfo")}</h3>
             <ul className="contact-info">
               <li>
-                <Mail size={18} />{" "}
+                <FaEnvelope size={18} />{" "}
                 <a href="mailto:javier@example.com">{t("footer.email")}</a>
               </li>
               <li>
-                <Phone size={18} /> {t("footer.phone")}
+                <FaPhone size={18} /> {t("footer.phone")}
               </li>
               <li>
-                <MapPin size={18} /> {t("footer.address")}
+                <FaMapPin size={18} /> {t("footer.address")}
               </li>
             </ul>
           </div>
@@ -68,18 +59,24 @@ function Footer() {
           <div className="footer-section">
             <h3>{t("footer.followMe")}</h3>
             <div className="social-links">
-              <a href="#" aria-label="Facebook">
-                <Facebook />
-              </a>
-              <a href="#" aria-label="Twitter">
-                <X />
-              </a>
-              <a href="#" aria-label="Instagram">
-                <Instagram />
-              </a>
-              <a href="#" aria-label="LinkedIn">
-                <Linkedin />
-              </a>
+              {[
+                { url: "https://x.com/JavierBrega", network: "x" },
+                { url: "https://www.instagram.com/javierbrega", network: "instagram" },
+                { url: "https://www.linkedin.com/in/javier-brega", network: "linkedin" },
+                { url: "https://wa.me/+5492604576114", network: "whatsapp" },
+                { url: "https://open.spotify.com/user/javierbrega", network: "spotify" },
+                { url: "https://github.com/javierbrega", network: "github" },
+              ].map((social, index) => (
+                <SocialIcon
+                  key={index}
+                  url={social.url}
+                  network={social.network}
+                  bgColor="#ff8700" // color naranja
+                  style={{ height: 30, width: 30 }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ))}
             </div>
           </div>
         </AnimatedElement>

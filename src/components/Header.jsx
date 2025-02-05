@@ -54,9 +54,7 @@ function Header() {
             />
           </svg>
         </div>
-        <a href="mailto:javierbrega@gmail.com" className="email">
-          javierbrega@gmail.com
-        </a>
+      
       </div>
       <nav className="nav-menu">
         <ul>
