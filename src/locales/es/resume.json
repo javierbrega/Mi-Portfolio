@@ -28,18 +28,18 @@
       "desc3": "Aprendí y apliqué mejores prácticas en desarrollo web"
     },
     "masters": {
-      "title": "Máster en Ciencias de la Computación",
-      "company": "Tech University",
-      "date": "2018 - 2020",
-      "desc1": "Especialización en Inteligencia Artificial y Aprendizaje Automático",
-      "desc2": "Tesis: 'Implementación de IA en Aplicaciones Web para una Experiencia de Usuario Mejorada'"
+      "title": "Tecnicatura Universitaria en Programación",
+      "company": "UTN Universidad Tecnológica Nacional",
+      "date": "2022 - 2024",
+      "desc1": "Finalizada",
+      "desc2": "Cursos relevantes: Programación Orientada a Objetos, Estructura de Datos, Algoritmos"
     },
     "bachelors": {
-      "title": "Licenciatura en Ingeniería de Software",
-      "company": "State University",
-      "date": "2014 - 2018",
-      "desc1": "Graduado con honores (GPA: 3.8/4.0)",
-      "desc2": "Cursos relevantes: Desarrollo Web, Sistemas de Bases de Datos, Arquitectura de Software"
+      "title": "Diseño de Experiencia de Usuario (UX)",
+      "company": "UTN Universidad Tecnológica Nacional",
+      "date": "2022", 
+      "desc1": "Finalizado",
+      "desc2": " "
     },
     "bootcamp": {
       "title": "Bootcamp de Desarrollo Web",

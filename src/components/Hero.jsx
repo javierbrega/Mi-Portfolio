@@ -66,7 +66,7 @@ function Hero() {
                 key={index}
                 url={social.url}
                 network={social.network}
-                bgColor="#ff8700"  // color naranja
+                bgColor="#ff8700"  
                 style={{ height: 30, width: 30 }}
                 target="_blank"
                 rel="noopener noreferrer"
