@@ -32,21 +32,21 @@
       "company": "UTN Universidad Tecnológica Nacional",
       "date": "2022 - 2024",
       "desc1": "Finalizada",
-      "desc2": "Cursos relevantes: Programación Orientada a Objetos, Estructura de Datos, Algoritmos"
+      "desc2": "Temas relevantes: Programación Orientada a Objetos, Estructura de Datos, Algoritmos"
     },
     "bachelors": {
       "title": "Diseño de Experiencia de Usuario (UX)",
       "company": "UTN Universidad Tecnológica Nacional",
       "date": "2022", 
       "desc1": "Finalizado",
-      "desc2": " "
+      "desc2": " Temas relevantes: Diseño de Interfaces, Diseño de Experiencia de Usuario, Diseño de Servicios Digitales"
     },
     "bootcamp": {
-      "title": "Bootcamp de Desarrollo Web",
-      "company": "CodeCamp Academy",
-      "date": "Verano 2014",
-      "desc1": "Programa intensivo de 12 semanas cubriendo desarrollo web full-stack",
-      "desc2": "Construí y desplegué múltiples aplicaciones web"
+      "title": "Ingles Tic Nivel 3",
+      "company": "Fundación educativa Santisima Trinidad",
+      "date": "2023",
+      "desc1": "Finalizado",
+      "desc2": "Temas relevantes: Ingles tecnico, Ingles para programadores, Ingles para desarrolladores"
     }
   }
   

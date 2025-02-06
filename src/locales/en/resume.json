@@ -35,18 +35,19 @@
       "desc2": "Relevant courses: Object-Oriented Programming, Data Structure, Algorithms"
     },
     "bachelors": {
-      "title": "Bachelor of Science in Software Engineering",
-      "company": "State University",
-      "date": "2014 - 2018",
-      "desc1": "Graduated with Honors (GPA: 3.8/4.0)",
-      "desc2": "Relevant coursework: Web Development, Database Systems, Software Architecture"
+      "title": "User Experience (UX) Design",
+      "company": "UTN National Technological University",
+      "date": "2022", 
+      "desc1": "Finished",
+      "desc2": "Relevant topics: Interface Design, User Experience Design, Digital Services Design"
     },
     "bootcamp": {
-      "title": "Web Development Bootcamp",
-      "company": "CodeCamp Academy",
-      "date": "Summer 2014",
-      "desc1": "Intensive 12-week program covering full-stack web development",
-      "desc2": "Built and deployed multiple web applications"
+      "title": "English ICT Level 3",
+      "company": "Santisima Trinidad Educational Foundation",
+      "date": "2023",
+      "desc1": "Finished",
+      "desc2": "Relevant topics: Technical English, English for programmers, English for developers"
     }
+    
   }
   
