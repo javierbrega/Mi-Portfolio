@@ -2,8 +2,9 @@
     "my": "My",
     "works": "Works",
     "project1": {
-      "title": "prueba",
-      "description": "este es la descripcion."
+     
+"title": "test",
+"description": "this is the description."
     },
     "project2": {
       "title": "My Portfolio",
